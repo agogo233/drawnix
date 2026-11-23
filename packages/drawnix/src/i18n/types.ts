@@ -73,8 +73,11 @@ export interface Translations {
   'general.delete': string;
   'general.copyToClipboard': string;
   'general.copyToClipboard.svg': string;
-  'general.copyToClipboard.pngWithoutBackground': string;
-  'general.copyToClipboard.pngWithBackground': string;
+  'general.copyToClipboard.png': string;
+  'general.copyToClipboard.transparent': string;
+  'toast.copyToClipboard.svg': string;
+  'toast.copyToClipboard.png': string;
+  'toast.copyToClipboard.mode.transparent': string;
 
   // Language
   'language.switcher': string;
@@ -179,4 +182,6 @@ export interface I18nContextType {
 export interface I18nProviderProps {
   children: ReactNode;
   defaultLanguage?: Language;
+  initialLanguage?: Language;
+  onLanguageChange?: (language: Language) => void;
 }

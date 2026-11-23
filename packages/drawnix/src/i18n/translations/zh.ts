@@ -65,13 +65,16 @@ const zhTranslations: Translations = {
   'general.redo': '重做',
   'general.menu': '应用菜单',
   'general.moreOptions': '更多选项',
-  'general.duplicate': '复制',
+  'general.duplicate': '重复',
   'general.delete': '删除',
 
   'general.copyToClipboard': '复制到剪贴板',
   'general.copyToClipboard.svg': 'SVG',
-  'general.copyToClipboard.pngWithoutBackground': 'PNG（无背景）',
-  'general.copyToClipboard.pngWithBackground': 'PNG（含背景）',
+  'general.copyToClipboard.png': 'PNG',
+  'general.copyToClipboard.transparent': '透明背景',
+  'toast.copyToClipboard.svg': '已将所选项作为 SVG 复制到剪贴板',
+  'toast.copyToClipboard.png': '已将所选项作为 PNG 复制到剪贴板',
+  'toast.copyToClipboard.mode.transparent': '（透明背景）',
 
   // Language
   'language.switcher': 'Language',
